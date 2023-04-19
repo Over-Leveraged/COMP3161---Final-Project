@@ -8,8 +8,8 @@ def databaseConnection():
     try:
         conn = mysql.connector.connectmydb = mysql.connector.connect(
         host="localhost",
-        user="walsh",
-        password="123456",
+        user="",
+        password="",
         database="course_system"
 )
         print("Database connection successful")
